@@ -97,7 +97,7 @@ def result():
   
     my_pic=df.plot.bar(title='Résultat de votre simulation',grid=True).get_figure()
 
-    my_pic.savefig('static\\images\\picture.jpg')
+    my_pic.savefig('static\\images\\picture.jpg')  
     
     
     
